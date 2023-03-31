@@ -22,7 +22,9 @@ Este comando instalará todas as dependências do projeto.
 Antes de executar o projeto, você precisará configurar as variáveis de ambiente do servidor. Para fazer isso, crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis:
 
 `PORT=<porta do servidor>`
+
 `MONGODB_URI=<URL do banco de dados MongoDB>`
+
 `JWT_SECRET=<segredo para a geração de tokens JWT>`
 
 Certifique-se de substituir os valores das variáveis pelas suas próprias configurações.
