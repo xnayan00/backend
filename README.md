@@ -23,7 +23,13 @@ Antes de executar o projeto, você precisará configurar as variáveis de ambien
 
 `PORT=<porta do servidor>`
 
-`MONGODB_URI=<URL do banco de dados MongoDB>`
+`DB_HOST=<URL do banco de dados MongoDB>`
+
+`DB_NAME=<Nome do banco de dados MongoDB>`
+
+`DB_USERNAME=<Nome de usuário do banco de dados MongoDB>`
+
+`DB_PASSWORD=<Senha do banco de dados MongoDB>`
 
 `JWT_SECRET=<segredo para a geração de tokens JWT>`
 
