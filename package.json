@@ -1,0 +1,25 @@
+{
+  "name": "node-default-structure",
+  "version": "1.0.0",
+  "description": "A default structure to start a node backend with authentication and authorization functionalities.",
+  "main": "App.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon App.js",
+    "start": "node App.js"
+  },
+  "keywords": [],
+  "author": "Yan Mendes",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "prettier": "2.8.7"
+  }
+}
